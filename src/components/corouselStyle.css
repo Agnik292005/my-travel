@@ -1,0 +1,104 @@
+.firstcorousel{
+    background-color: #fff;
+}
+.basictext{
+    margin-top: 5rem;
+}
+.basictext h1{
+    font-size: 3.5rem;
+}
+.basictext p{
+    margin-top: 1rem;
+    line-height: 1.6rem;
+}
+
+
+.imgcorousel{
+    display: flex;
+   
+    height: 400px;
+    width: 100%;
+/* max-width: 800px; */
+    padding: 2rem;
+    
+}
+.corousel_wrapper{
+    position: relative;
+/* display: flex; */
+    width: 100%;
+    height: 150%;
+ 
+
+} 
+ .ccorousel_card{
+    display: flex;
+    flex: 1;
+    position: absolute;
+   
+    border-radius: 20px;
+    width: 100%;
+    height: 100%; 
+     overflow: hidden;
+    /* padding: 2rem; */
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(.8);
+    transition: 0.5s ease-in-out;
+} 
+.card_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.ccorousel_card-active {
+    opacity: 1;
+transform: scale(.8);
+pointer-events: visible;
+}
+.corousel_arrow_left,
+.corousel_arrow_right{
+    position: absolute;
+    font-size: 40px;
+    top:50%;
+    transform:translate(0,-50%) ;
+    background-color: #cfc9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding-bottom: 7px;
+    cursor: pointer;
+ 
+}
+.corousel_arrow_left{
+    left: 35px;
+}
+.corousel_arrow_right{
+    right: 15px;
+}
+.corousel_pagination{
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.pagination_dot{
+  height: 10px;
+  width: 10px;
+  background-color: hsl(32, 90%, 44%);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+.pagination_dot:hover{
+    transform: scale(1.2);
+}
+.pagination_dot-active{
+  background-color: rgb(22, 39, 216);
+}

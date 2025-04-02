@@ -1,0 +1,205 @@
+
+.about-details {
+  max-width: 90%;
+  margin: auto;
+  padding: 3rem;
+  text-align: center;
+  background: linear-gradient(135deg, #f0f4f8, #e3eaf1); /* Soft light blue gradient */
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+}
+
+/* Header */
+.about-header h1 {
+  font-size: 3rem; 
+  color: #1E3A5F;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.about-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Stats */
+.about-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+.stat {
+  text-align: center;
+  font-size: 1.4rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.stat:hover {
+  transform: scale(1.05);
+}
+.stat h2 {
+  font-size: 2.5rem;
+  color: #E67E22;
+}
+
+/* Grid Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  align-items: center;
+  margin: 4rem 0;
+}
+.about-box {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.about-image img:hover {
+  transform: scale(1.08);
+}
+
+/* Testimonials */
+.about-testimonials {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: #1E3A5F;
+  color: #fff;
+  border-radius: 10px;
+}
+.about-testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.testimonial {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1rem auto;
+  max-width: 600px;
+  font-style: italic;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Team Section */
+.about-team {
+  margin-top: 5rem;
+}
+.about-team h2{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.team-member {
+  text-align: center;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #1E3A5F, #4A90E2); 
+  color: white; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #1E3A5F;
+  transition: color 0.3s ease-in-out;
+}
+
+.team-member:hover h3 {
+  color: #FFD700; 
+}
+
+.team-member p {
+  color: #666; 
+  transition: color 0.3s ease-in-out;
+}
+
+.team-member:hover p {
+  color: #fff; 
+}
+
+.team-member img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #1E3A5F;
+}
+
+/* Call to Action */
+.about-cta {
+  background: linear-gradient(135deg, #1E3A5F, #4A90E2);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+.about-cta h2 {
+  font-size: 2.5rem;
+}
+.about-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.about-cta .btn {
+  background: linear-gradient(135deg, #E67E22, #D35400); 
+  color: white;
+  padding: 14px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: 
+    transform 0.3s ease-in-out, 
+    background 0.3s ease-in-out, 
+    color 0.3s ease-in-out, 
+    box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.about-cta .btn:hover {
+  transform: scale(1.1); 
+  background: linear-gradient(135deg, #D35400, #E67E22); 
+  color: #FFD700;
+  box-shadow: 0px 8px 20px rgba(230, 126, 34, 0.5); 
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+  

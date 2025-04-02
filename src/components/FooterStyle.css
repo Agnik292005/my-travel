@@ -1,0 +1,134 @@
+/* Footer Main Container */
+.main {
+    background: black;
+    color: #fff;
+    margin-top: 100px;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+/* Footer Grid Layout */
+.heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3rem;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding-bottom: 4rem;
+}
+
+/* Individual Column Styling */
+.heading div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section Titles */
+.heading h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #E67E22;
+}
+
+/* Subtitles */
+.heading h6 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Paragraphs (Links and Info) */
+.heading p {
+    color: beige;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.heading p:hover {
+    color: #E67E22;
+}
+
+/* Bottom Footer Section */
+.bottom {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Copyright Text */
+.bottom p {
+    font-size: 0.9rem;
+    color: beige;
+    word-spacing: 4px;
+}
+
+/* Social Media Icons */
+.socialmediaicons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.socialmediaicons div {
+    font-size: 1.5rem;
+    color: beige;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.socialmediaicons div:hover {
+    transform: scale(1.2);
+    color: #E67E22;
+}
+
+/* Styling the email input */
+.email-input {
+    width: 100%;  
+    padding: 12px; 
+    font-size: 1rem; 
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+    background-color: #fff; 
+    color: #333; 
+    box-sizing: border-box; 
+    margin-bottom: 1rem;
+  }
+  
+  .email-input:focus {
+    border-color: #E67E22;  
+    outline: none;  
+  }
+  
+  button[type="submit"]{
+    padding: 12px 20px;
+    background-color: #E67E22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:darkseagreen; 
+    color:darkblue;
+    transform: scale(1.05);
+  }
+  
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .heading {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .socialmediaicons {
+        gap: 15px;
+    }
+}
+

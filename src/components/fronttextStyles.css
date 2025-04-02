@@ -1,0 +1,22 @@
+.front {
+    color: #003366;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.front h1 {
+    font-size: 6rem;
+    /* margin-top: 0.8rem; */
+    text-decoration: solid;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin:auto;
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 12rem;
+}
+
+
+
