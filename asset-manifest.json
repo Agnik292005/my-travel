@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-travel/static/css/main.1de2e9cf.css",
+    "main.js": "/my-travel/static/js/main.a981c287.js",
+    "static/js/453.68693753.chunk.js": "/my-travel/static/js/453.68693753.chunk.js",
+    "static/media/tajmahal.jpeg": "/my-travel/static/media/tajmahal.9c610e4a1738004a6e56.jpeg",
+    "static/media/bgimage.png": "/my-travel/static/media/bgimage.833805c5997cb16fe1df.png",
+    "static/media/img-9.jpg": "/my-travel/static/media/img-9.f97f588f3670715d01b2.jpg",
+    "static/media/italy.webp": "/my-travel/static/media/italy.8c923ad1ff4e9a7587c2.webp",
+    "static/media/travels.jpg": "/my-travel/static/media/travels.7357b683f2a9a2e1fac7.jpg",
+    "static/media/bahamas.jpg": "/my-travel/static/media/bahamas.382c5799340d3946103d.jpg",
+    "static/media/historical.jpeg": "/my-travel/static/media/historical.98cc99749ff11b19930e.jpeg",
+    "static/media/peak.jpg": "/my-travel/static/media/peak.f693a354c3ba735f17cd.jpg",
+    "static/media/egypt.webp": "/my-travel/static/media/egypt.dfff8fa208a4ad01c9d0.webp",
+    "static/media/c3.jpg": "/my-travel/static/media/c3.4628c1183fc688734573.jpg",
+    "static/media/c2.jpg": "/my-travel/static/media/c2.7c1f09312d7db8a6ffbf.jpg",
+    "static/media/boat.jpg": "/my-travel/static/media/boat.82fe49271207874e1e38.jpg",
+    "index.html": "/my-travel/index.html",
+    "main.1de2e9cf.css.map": "/my-travel/static/css/main.1de2e9cf.css.map",
+    "main.a981c287.js.map": "/my-travel/static/js/main.a981c287.js.map",
+    "453.68693753.chunk.js.map": "/my-travel/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de2e9cf.css",
+    "static/js/main.a981c287.js"
+  ]
+}
